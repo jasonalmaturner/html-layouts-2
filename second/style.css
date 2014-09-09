@@ -1,0 +1,84 @@
+.container {
+	min-width: 475px;
+	max-width: 625px;
+	margin: 0px auto;
+	font-family: arial, helvetica, sans-serif;
+}
+
+.content {
+	margin: 15px;
+	height: 800px;
+	width: 93.6%;
+}
+
+.box {
+	background-color: #dcdcdc;
+	height: 50%;
+	width: 100%;
+	margin: 50px, 0px;
+ }
+ 
+ .title p {
+ 	font-size: 11rem;
+ 	text-align: center;
+ 	margin: 0px;
+ }
+
+ .title {
+ 	height: 50%;
+ }
+
+ .buttons {
+ 	height: 50%;
+ 	color: white;
+ 	font-size: 2.9rem;
+ 	padding: 90px 20px 0px 20px;
+ }
+
+ .button1 {
+ 	background-color: red;
+ 	float: left;
+ 	padding: 10px 25px;
+ }
+
+ .button2 {
+ 	background-color: blue;
+ 	float: right;
+ 	padding: 10px 25px;
+ }
+
+.pic {
+	margin: 25px 0px;
+	padding-top: 20px;
+}
+
+ img {
+ 	height: auto;
+ 	width: 50%;
+ 	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ }
+
+ .words {
+ 	margin: 20px;
+ }
+
+ .foot {
+ 	background-color: black;
+ 	color: white;
+ 	width: 100%;
+ 	height: 100px;
+ 	font-size: 2rem;
+ 	margin-top: 50px;
+ }
+
+ .foot ul li {
+ 	margin: 7px;
+ 	display: inline;
+ }
+
+.links {
+	float: right;
+	margin-right: 50px;
+}
