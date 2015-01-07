@@ -1,0 +1,60 @@
+body {
+	width: 90%;
+	background: white;
+	/*margin: 5px*/
+}
+
+header {
+	display: flex;
+	height: 200px;
+}
+
+.header_box {
+	width: 33%;
+	margin: 5px;
+}
+
+.black {
+	background-color: black;
+}
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.text {
+	font-family: arial;
+	margin: 5px;
+}
+
+.bottom {
+	display: flex;
+	height: 200px;
+	margin: 10px 5px;
+}
+
+.bottom_left {
+	width: 80%;
+}
+
+.bottom_right {
+	width: 20%;
+}
+
+footer {
+	display: flex;
+	height: 75px;
+}
+
+.footer_left {
+	width: 66%;	
+}
+
+.grey {
+	background-color: grey;
+}
+
