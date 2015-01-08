@@ -1,17 +1,18 @@
 body {
 	width: 90%;
 	background: white;
-	/*margin: 5px*/
+	max-width: 800px;
+	/*margin: 0 auto;*/
 }
 
 header {
 	display: flex;
+	justify-content: space-between;
 	height: 200px;
 }
 
 .header_box {
-	width: 33%;
-	margin: 5px;
+	width: 30%;
 }
 
 .black {
@@ -28,13 +29,12 @@ header {
 
 .text {
 	font-family: arial;
-	margin: 5px;
 }
 
 .bottom {
 	display: flex;
 	height: 200px;
-	margin: 10px 5px;
+	margin: 10px 0;
 }
 
 .bottom_left {
@@ -48,13 +48,23 @@ header {
 footer {
 	display: flex;
 	height: 75px;
+	/*margin: 5px;*/
 }
 
 .footer_left {
 	width: 66%;	
 }
 
+.footer_right {
+	display: flex;
+	width: 34%;
+}
+
 .grey {
 	background-color: grey;
 }
 
+.inner_box {
+	width: 30%;
+	margin: 0 auto;
+}
