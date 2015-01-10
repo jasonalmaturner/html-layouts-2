@@ -1,8 +1,9 @@
 body {
-	border: solid black;
 	max-width: 800px;
-	background-color: grey;
+	border: solid black;
+	background-color: gray;
 	font-family: arial;
+	margin: 0 auto;
 }
 
 .container {
